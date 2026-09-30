@@ -1,0 +1,25 @@
+MOD "DISCARICA" - Forge 1.20.1
+
+COSA SERVE
+1. Java 17 (importante: proprio la 17, non una piu nuova). Scaricala da adoptium.net (Temurin 17).
+2. IntelliJ IDEA Community (gratis).
+
+COME PARTIRE
+1. Estrai lo ZIP in una cartella.
+2. IntelliJ -> Open -> scegli la cartella "discarica-forge".
+3. File -> Project Structure -> SDK: scegli Java 17.
+4. Aspetta che finisca di caricare (la prima volta ci mette qualche minuto).
+5. In alto a destra scegli "runClient" e premi Play.
+
+PER FARE IL FILE .JAR DELLA MOD
+Da terminale nella cartella del progetto:
+  gradlew.bat build      (Windows)
+  ./gradlew build        (Mac / Linux)
+Il file esce in build/libs.
+
+SENZA INSTALLARE NULLA
+Carica il progetto su GitHub: la scheda "Actions" crea il .jar da sola.
+
+COSA FA GIA
+- Blocco Pattume (scheda "Discarica" nel menu creativo)
+- Crafting 3x3: 9 blocchi qualsiasi -> 9 Blocchi Pattume
